@@ -1,0 +1,174 @@
+@media screen and (max-width: 992px) {
+  /* header section start here  */
+  .nav-menu ul {
+    display: none;
+  }
+
+  .toggle-btn {
+    display: block;
+  }
+
+  /* header section ends here */
+
+  /* row 1 start here  */
+  .article-section h1 {
+    font-size: 2.5rem;
+    padding: 10px 100px;
+    padding-top: 20px;
+    background: linear-gradient(to top, orange, red);
+    color: transparent;
+    background-clip: text;
+    line-height: 40px;
+    font-weight: 700;
+  }
+
+  /* row 1 ends here */
+  /* row 2 start here  */
+  .row-2 {
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .article-column {
+    width: 100%;
+  }
+
+  .article-column h1 {
+    text-align: center;
+    font-weight: 800;
+    line-height: 40px;
+  }
+
+  .all-para {
+    margin: 0 auto;
+  }
+
+  .all-about-para {
+    text-align: center;
+  }
+
+  .commertial-residential {
+    display: flex;
+    gap: 20px;
+  }
+
+  .img-column {
+    width: 100%;
+  }
+
+  /* row 2 ends here */
+
+  /* row 3 start here  */
+  .row-3 {
+    /* flex-direction: column; */
+    gap: 40px;
+    padding: 30px 0;
+  }
+  .review-column {
+    width: 40%;
+    border-radius: 10px;
+    padding: 20px 10px;
+    background-color: hotpink;
+  }
+  .work-column {
+    width: 40%;
+    border-radius: 10px;
+    padding: 20px 10px;
+    background-color: lightskyblue;
+  }
+  .client-column {
+    width: 40%;
+    border-radius: 10px;
+    padding: 20px 10px;
+    background-color: lightgreen;
+  }
+  .staff-column {
+    width: 40%;
+    border-radius: 10px;
+    padding: 20px 10px;
+    background-color: lightsalmon;
+  }
+  /* row 3 ends here */
+  /* row 4 start here  */
+
+  .concept {
+    background-color: hotpink;
+    padding: 20px;
+    border-radius: 10px;
+    width: 22%;
+  }
+
+  .design-process {
+    background-color: yellow;
+    padding: 20px;
+    width: 22%;
+    border-radius: 10px;
+  }
+
+  .supervision {
+    background-color: lightgreen;
+    width: 22%;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .budget-planning {
+    background-color: lightblue;
+    width: 22%;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  /* work services problem spotted */
+  .concept {
+    width: 43%;
+  }
+
+  .design-process {
+    width: 43%;
+  }
+
+  .supervision {
+    width: 43%;
+  }
+
+  .budget-planning {
+    width: 43%;
+  }
+
+  /* row 4 ends here */
+
+  /* row 5 start from here  */
+  .commertial {
+    width: 100%;
+  }
+  .portfolio-img-2 {
+    width: 48.5%;
+  }
+  .commertial-2 {
+    width: 100%;
+  }
+  .portfolio-img-3 {
+    display: none;
+  }
+  /* row 5 ends here */
+
+  /* row 6 start here  */
+  .article-card {
+    flex-direction: column;
+    padding: 0 50px;
+  }
+  .item1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+  }
+  .card-paragraph {
+    text-align: left;
+  }
+  .img {
+    width: 60%;
+  }
+  /* row 6 ends here */
+}
